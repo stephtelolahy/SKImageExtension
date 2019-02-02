@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3317C7DC8CE9B503F85DF4C340377793 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B699A9A68D1BAA292C775D27431DC /* ReplaceMe.swift */; };
 		69505A637632926BCB2683336752C9AF /* Pods-SKImageExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EDDE4F5A0B4A563AEAE61D05A4F781 /* Pods-SKImageExtension_Example-dummy.m */; };
 		698417F89B114E5C53A295A70F84D60F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		84937D6C2EA0D5E77E1044C77A73052A /* Pods-SKImageExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FCBB74F35DDE8F93CEE1B52735AE1 /* Pods-SKImageExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EF284E3872EBF967FC5C66188E19CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		93114A2D5D4E52C648845F55FCE3DC55 /* SKImageExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CB3FEF07BC8D16890B3E55195A811A /* SKImageExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC90824F1F0576FEA5F82F65006D0E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AD18B8652205E0900088F290 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18B8632205E07D0088F290 /* UIImageExtension.swift */; };
 		DD2CC7BD8AC1471A1786AA7A173A8122 /* SKImageExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626461FCB58CC2BAB45D34E287AF8C49 /* SKImageExtension-dummy.m */; };
 		E1AA492B5D8AA0D974E08C4003BD4BFA /* Pods-SKImageExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8529C601DE4CF4CD43EC7AAFB4B5012E /* Pods-SKImageExtension_Tests-dummy.m */; };
 		F0D2A0CDFCCD0337158967656E53F440 /* Pods-SKImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249580B7BC7BD1FC18600354ADAC5CA8 /* Pods-SKImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +58,7 @@
 		7CE10AA056F68B452FA6C2F459B066C1 /* SKImageExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKImageExtension-prefix.pch"; sourceTree = "<group>"; };
 		8529C601DE4CF4CD43EC7AAFB4B5012E /* Pods-SKImageExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKImageExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD18B8632205E07D0088F290 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = SKImageExtension/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
 		B9CB3FEF07BC8D16890B3E55195A811A /* SKImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKImageExtension-umbrella.h"; sourceTree = "<group>"; };
 		C21660160D052AFDC978AD8C9CD02E74 /* SKImageExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKImageExtension.modulemap; sourceTree = "<group>"; };
 		C50E7DE0A4BFCCBF0ADB9A4E5113BB47 /* Pods-SKImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		FB902251BC5720F2FE8DE6F5E5836C2A /* Pods-SKImageExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKImageExtension_Example-resources.sh"; sourceTree = "<group>"; };
 		FC3FCBB74F35DDE8F93CEE1B52735AE1 /* Pods-SKImageExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKImageExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FE9201F82C1C8453E11E3E2974FA1440 /* Pods_SKImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF8B699A9A68D1BAA292C775D27431DC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SKImageExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +147,9 @@
 		39EE9A87F2AB50E3D54810F5DBE41E97 /* SKImageExtension */ = {
 			isa = PBXGroup;
 			children = (
-				FF8B699A9A68D1BAA292C775D27431DC /* ReplaceMe.swift */,
 				1841128D6F241A0510B0547D68EC5BBA /* Pod */,
 				0D0842273DB41335889B16151C4E01E6 /* Support Files */,
+				AD18B8632205E07D0088F290 /* UIImageExtension.swift */,
 			);
 			name = SKImageExtension;
 			path = ../..;
@@ -319,6 +319,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1010;
 				TargetAttributes = {
+					3141659857A40C922DED4E6F38E31133 = {
+						LastSwiftMigration = 1010;
+					};
 					6420D6FE104A8A9A81AE448D282A8F77 = {
 						LastSwiftMigration = 1010;
 					};
@@ -356,8 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3317C7DC8CE9B503F85DF4C340377793 /* ReplaceMe.swift in Sources */,
 				DD2CC7BD8AC1471A1786AA7A173A8122 /* SKImageExtension-dummy.m in Sources */,
+				AD18B8652205E0900088F290 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +556,7 @@
 			baseConfigurationReference = C50E7DE0A4BFCCBF0ADB9A4E5113BB47 /* Pods-SKImageExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -576,6 +580,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -588,6 +593,7 @@
 			baseConfigurationReference = 7CB52A158D95A4A0855AB515C560F2A9 /* Pods-SKImageExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -612,6 +618,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
